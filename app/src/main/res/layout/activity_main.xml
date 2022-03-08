@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5B3"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="calculator"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#AC5F0D"
+        android:textSize="45sp" />
+
+
+    <EditText
+        android:id="@+id/first_number"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="first number"
+        android:textColor="#B65601"
+        android:textColorHint="#B65601"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/second_number"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="second number"
+        android:textColor="#B65601"
+        android:textColorHint="#B65601"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="monospace"
+        android:text="result"
+        android:textAlignment="center"
+        android:textColor="#9E4A00"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/rest"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="rest"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="+"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/calculate1"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="-"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calculate2"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="×"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/calculate3"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="÷"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
